@@ -4,13 +4,15 @@
 
 ------------------------------------------------------------------------
 
-## 🔔 프로젝트 명칭 
+## 📍 프로젝트 명칭 
 
- NOTI는 NOTIFY의 줄임말로 사전에 발매정보를 알려주는 알림 서비스를 뜻합니다. 
+NOTI는 NOTIFY의 줄임말로 사전에 발매정보를 알려주는 알림 서비스를 뜻합니다. 
 
-## 📍 프로젝트 배포 링크 
+##  🎥 프로젝트 배포 링크
 
-https://noti-alarm.netlify.app
+[NOTI 사이트 바로가기](https://noti-alarm.netlify.app) 
+
+ 
 
 ## 📍 프로젝트 소개 및 목적
 
@@ -20,7 +22,7 @@ https://noti-alarm.netlify.app
 
 이를 통해 알림 메시지를 통해 유저들은 원하는 제품의 구매 기회를 놓치지 않고 구매 할 수 있습니다.
 
-## 기술 스택
+## ⚙️ 기술 스택
 ![NOTI_PT (2)](https://user-images.githubusercontent.com/40348689/116185792-47015980-a75d-11eb-89b8-3535da506186.png)
 
 ![NOTI_PT (3)](https://user-images.githubusercontent.com/40348689/116185796-4963b380-a75d-11eb-9793-244436daf05c.png)
@@ -39,6 +41,9 @@ https://noti-alarm.netlify.app
 $ npm install
 $ npm run start
 ```
+
+
+## 📁 
 
 
 
