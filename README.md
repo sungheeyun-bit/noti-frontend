@@ -36,9 +36,11 @@ https://noti-alarm.netlify.app
 ## Npm start
 
 
+```
+$ npm install
+$ npm run start
+```
 
-npm install
-npm run start
 
 
 
