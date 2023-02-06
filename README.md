@@ -34,7 +34,7 @@ NOTI는 NOTIFY의 줄임말로 사전에 발매정보를 알려주는 알림 서
 + node
   + version 16
  
-## Npm start
+## 🏇 설치 및 실행방법 
 
 
 ```
