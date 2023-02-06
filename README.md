@@ -40,19 +40,6 @@ https://noti-alarm.netlify.app
 npm install
 npm run start
 
-## 프로젝트 플로우 차트
 
-![image](https://user-images.githubusercontent.com/40348689/116186015-c0994780-a75d-11eb-9c91-b06002a6ef90.png)
 
-## 팀 소개
-
-![NOTI_PT (4)](https://user-images.githubusercontent.com/40348689/116186243-36051800-a75e-11eb-9bb4-b3164cf96f8d.png)
-
-## 프로젝트 상세 정보
-
-https://github.com/codestates/noti-client/wiki
-
-## 프로젝트 발표 자료
-
-https://docs.google.com/presentation/d/1aXiPkb0Tsn2_pFjFdm5xKuDiuN6kjQdUWr7P_tC68RA/edit#slide=id.gd06e5883d2_0_18
 
