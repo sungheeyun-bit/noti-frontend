@@ -1,6 +1,5 @@
 # NOTI-PROJECT
-
-![Noti_Logo](https://user-images.githubusercontent.com/40348689/116185242-2edd0a80-a75c-11eb-80ac-f7e63af3798b.png)
+<img src="https://user-images.githubusercontent.com/40348689/116185242-2edd0a80-a75c-11eb-80ac-f7e63af3798b.png" width="200" height="200" />
 
 
 ------------------------------------------------------------------------
