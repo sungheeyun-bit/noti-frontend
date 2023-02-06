@@ -1,70 +1,58 @@
-# Getting Started with Create React App
+# NOTI-PROJECT
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Noti_Logo](https://user-images.githubusercontent.com/40348689/116185242-2edd0a80-a75c-11eb-80ac-f7e63af3798b.png)
 
-## Available Scripts
 
-In the project directory, you can run:
+------------------------------------------------------------------------
 
-### `npm start`
+## 프로젝트 명칭
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+NOTI: NOTI는 NOTIFY의 줄임말로 사전에 발매정보를 알려주는 알림 서비스를 뜻합니다.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 프로젝트 배포 링크
 
-### `npm test`
+https://noti-alarm.netlify.app
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 프로젝트 소개 및 목적
 
-### `npm run build`
+발매 정보를 알려주는 사이트는 많지만 정보들이 파편화돼 있으며 발매 당일 구매 기회를 놓치는 문제가 많다는 점을 발견하였습니다. 개인의 취향에 따라 꼭 갖고 싶은 아이템 놓치기 않기 위해 발매 정보를 모아 알려주고 관리 할 수 있는 서비스입니다.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+저희 프로젝트를 활용한다면 브랜드 및 제품에 따라 여기 저기 사이트를 이동하며 발매 정보를 찾고 기억할 필요 없습니다. 파편화된 발매정보를 한곳에 모아 보기 쉽게 보여주는 기능과 발매 전 날 유저가 발매 정보 및 발매일을 리마인드 할 수 있도록 알림 메시지 전달 기능을 통해 발매정보를 쉽게 확인 할 수 있습니다.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+이를 통해 알림 메시지를 통해 유저들은 원하는 제품의 구매 기회를 놓치지 않고 구매 할 수 있습니다.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 기술 스택
+![NOTI_PT (2)](https://user-images.githubusercontent.com/40348689/116185792-47015980-a75d-11eb-89b8-3535da506186.png)
 
-### `npm run eject`
+![NOTI_PT (3)](https://user-images.githubusercontent.com/40348689/116185796-4963b380-a75d-11eb-9793-244436daf05c.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Node, Npm version
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
++ npm
+  + version 8.9.0
++ node
+  + version 16
+ 
+## Npm start
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+npm install
+npm run start
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 프로젝트 플로우 차트
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![image](https://user-images.githubusercontent.com/40348689/116186015-c0994780-a75d-11eb-9c91-b06002a6ef90.png)
 
-### Code Splitting
+## 팀 소개
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+![NOTI_PT (4)](https://user-images.githubusercontent.com/40348689/116186243-36051800-a75e-11eb-9bb4-b3164cf96f8d.png)
 
-### Analyzing the Bundle Size
+## 프로젝트 상세 정보
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+https://github.com/codestates/noti-client/wiki
 
-### Making a Progressive Web App
+## 프로젝트 발표 자료
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+https://docs.google.com/presentation/d/1aXiPkb0Tsn2_pFjFdm5xKuDiuN6kjQdUWr7P_tC68RA/edit#slide=id.gd06e5883d2_0_18
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
