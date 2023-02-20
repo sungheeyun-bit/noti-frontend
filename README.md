@@ -22,6 +22,9 @@
 
 이를 통해 알림 메시지를 통해 유저들은 원하는 제품의 구매 기회를 놓치지 않고 구매 할 수 있습니다.
 
+## 🤘 프로젝트 주요 기능
+![렌딩페이지](https://user-images.githubusercontent.com/70868454/220041735-c3a11aee-ff39-4c18-9bdb-650128f60984.gif)
+
 ## ⚙️ 기술 스택
 
 |Front|Back|Deploy
