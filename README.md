@@ -30,7 +30,7 @@
 
 
 
-## Node, Npm version
+## ⚡ Node, Npm version
 
 + npm
   + version 8.9.0
@@ -46,7 +46,8 @@ $ npm run start
 ```
 
 
-## 📁 
+## 📁 폴더 구조
+
 
 
 
