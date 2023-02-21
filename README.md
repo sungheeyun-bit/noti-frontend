@@ -15,9 +15,9 @@
  
 ## 🎯 프로젝트 소개 및 목적
 
-<div align="center">
+<!-- <div align="center">
 <img src="https://user-images.githubusercontent.com/70868454/220041735-c3a11aee-ff39-4c18-9bdb-650128f60984.gif" />
-</div>
+</div> -->
 <br />
 발매 정보를 알려주는 사이트는 많지만 정보들이 파편화돼 있으며 발매 당일 구매 기회를 놓치는 문제가 많다는 점을 발견하였습니다. 개인의 취향에 따라 꼭 갖고 싶은 아이템 놓치기 않기 위해 발매 정보를 모아 알려주고 관리 할 수 있는 서비스입니다.
 
@@ -58,6 +58,42 @@
       </td>
       <td>
         <b>회원가입페이지</b>
+        <div></div>
+      </td>
+    </tr>
+   <tr>
+      <td>
+        <img src="https://user-images.githubusercontent.com/70868454/220351142-3714c699-0e4f-4291-a62d-cf040251f9a9.gif"  /> 
+      </td>
+      <td>
+        <b>알람페이지</b>
+        <div></div>
+      </td>
+    </tr>
+      <tr>
+      <td>
+        <img src="https://user-images.githubusercontent.com/70868454/220351108-5089fe9c-54a5-4de3-9f5d-a23ca5c4b91a.gif"  />
+      </td>
+      <td>
+        <b>상세페이지</b>
+        <div></div>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <img src="https://user-images.githubusercontent.com/70868454/220351087-f5189341-df7d-4d83-8554-7dcda52514f1.gif"  />
+      </td>
+      <td>
+        <b>검색기능</b>
+        <div></div>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <img src="https://user-images.githubusercontent.com/70868454/220351036-d950774d-2d2f-4ebd-a498-db90ae580233.gif"  />
+      </td>
+      <td>
+        <b>관리자 업로드페이지</b>
         <div></div>
       </td>
     </tr>
