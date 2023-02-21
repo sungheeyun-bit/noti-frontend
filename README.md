@@ -26,7 +26,27 @@
 이를 통해 알림 메시지를 통해 유저들은 원하는 제품의 구매 기회를 놓치지 않고 구매 할 수 있습니다.
 
 ## 🤘 프로젝트 기능 소개 
-![렌딩페이지](https://user-images.githubusercontent.com/70868454/220041735-c3a11aee-ff39-4c18-9bdb-650128f60984.gif)
+<table align="center">
+<thead>
+  <tr>
+    <th align="center">화면</th>
+    <th align="center">기능</th>
+  </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <img src="https://user-images.githubusercontent.com/70868454/220340136-cd4e3375-536b-48a8-a526-6a2365288a48.gif" width=100/>
+        <img src="https://user-images.githubusercontent.com/70868454/220340326-0480e242-1ed0-4c10-8881-4d2d3dbd4055.gif" width=100 />
+      </td>
+      <td>
+        <b>인증</b>
+        <div>로그인&회원가입</div>
+      </td>
+    </tr>
+   </tbody>
+ <table>
+
 
 ## ⚙️ 기술 스택
 
