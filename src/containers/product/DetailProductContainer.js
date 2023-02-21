@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { useSelector } from 'react-redux';
 import DetailProduct from '../../components/product/DetailProduct';
 import { useParams } from 'react-router-dom';
 import { addToAlarm } from '../../lib/api/alarm';
@@ -7,6 +8,7 @@ import { useToast } from '@chakra-ui/react';
 
 const DetailProductContainer = () => {
   const { productId } = useParams();
+  const { user } = useSelector(({ user }) => ({ user: user.user }));
   const [Product, setProduct] = useState('');
   const [Error, setError] = useState('');
   const toast = useToast();
@@ -30,14 +32,17 @@ const DetailProductContainer = () => {
 
   const alarmHandler = async (product) => {
     const body = product;
+    if (!user) {
+      showToast('로그인이 필요합니다', 'info', 'top', 2000, true);
+      return;
+    }
+
     try {
       await addToAlarm(body);
       showToast('알람이 등록되었습니다.', 'success', 'top', 2000, true);
     } catch (e) {
       if (e.response.status === 409) {
         showToast('이미 등록된 알람입니다.', 'error', 'top', 2000, true);
-      } else if (e.response.status === 401) {
-        showToast('로그인이 필요합니다', 'info', 'top', 2000, true);
       }
     }
   };
