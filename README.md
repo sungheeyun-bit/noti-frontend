@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+<div align="center">
+<img src="https://user-images.githubusercontent.com/40348689/116185242-2edd0a80-a75c-11eb-80ac-f7e63af3798b.png" width="200" height="200" />
+</div>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+------------------------------------------------------------------------
 
-## Available Scripts
+## 🔔 프로젝트 명칭 
 
-In the project directory, you can run:
+> **NOTI**는 NOTIFY의 줄임말로 사전에 발매정보를 알려주는 알림 서비스를 뜻합니다. 
 
-### `npm start`
+##  🎥 프로젝트 배포 링크
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+[NOTI 사이트 바로가기](https://noti-alarm.netlify.app) 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+ 
 
-### `npm test`
+## 🎯 프로젝트 소개 및 목적
+발매 정보를 알려주는 사이트는 많지만 정보들이 파편화돼 있으며 발매 당일 구매 기회를 놓치는 문제가 많다는 점을 발견하였습니다. 개인의 취향에 따라 꼭 갖고 싶은 아이템 놓치기 않기 위해 발매 정보를 모아 알려주고 관리 할 수 있는 서비스입니다.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+저희 프로젝트를 활용한다면 브랜드 및 제품에 따라 여기 저기 사이트를 이동하며 발매 정보를 찾고 기억할 필요 없습니다. 파편화된 발매정보를 한곳에 모아 보기 쉽게 보여주는 기능과 발매 전 날 유저가 발매 정보 및 발매일을 리마인드 할 수 있도록 알림 메시지 전달 기능을 통해 발매정보를 쉽게 확인 할 수 있습니다.
 
-### `npm run build`
+이를 통해 알림 메시지를 통해 유저들은 원하는 제품의 구매 기회를 놓치지 않고 구매 할 수 있습니다.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🤘 프로젝트 주요 기능
+![렌딩페이지](https://user-images.githubusercontent.com/70868454/220041735-c3a11aee-ff39-4c18-9bdb-650128f60984.gif)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## ⚙️ 기술 스택
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+|Front|Back|Deploy
+|:--:|:--:|:--:|
+|<img src="https://img.shields.io/badge/React-61DAFB?style=flat&logo=React&logoColor=white"/> <img src="https://img.shields.io/badge/Redux-764ABC?style=flat&logo=Redux&logoColor=white"/> <img src="https://img.shields.io/badge/Redux Saga-999999?style=flat&logo=Redux-Saga&logoColor=white"/> <img src="https://img.shields.io/badge/styled components-DB7093?style=flat&logo=styled-components&logoColor=white"/> <img src="https://img.shields.io/badge/Chakra UI-319795?style=flat&logo=Chakra UI&logoColor=white"/> <img src="https://img.shields.io/badge/Framer Motion-0055FF?style=flat&logo=Framer&logoColor=white"/>|<img src="https://img.shields.io/badge/Node.js-339933?style=flat&logo=Node.js&logoColor=white"/> <img src="https://img.shields.io/badge/Koa-33333D?style=flat&logo=Koa&logoColor=white"/> <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=MongoDB&logoColor=white"/>|<img src="https://img.shields.io/badge/Netlify-00C7B7?style=flat&logo=Netlify&logoColor=white"/> <img src="https://img.shields.io/badge/cloudtype-black?style=flat"/>
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## ⚡ Node, Npm version
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
++ npm
+  + version 8.9.0
++ node
+  + version 16
+ 
+## 🏇 설치 및 실행방법 
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+```
+$ npm install
+$ npm run start
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 📁 폴더 구조
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
