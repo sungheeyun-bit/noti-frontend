@@ -29,21 +29,40 @@
 <table align="center">
 <thead>
   <tr>
-    <th align="center">화면</th>
-    <th align="center">기능</th>
+    <th align="center">기능별 시연</th>
+    <th align="center">소개</th>
   </tr>
   </thead>
   <tbody>
     <tr>
       <td>
-        <img src="https://user-images.githubusercontent.com/70868454/220340136-cd4e3375-536b-48a8-a526-6a2365288a48.gif" width=100/>
-        <img src="https://user-images.githubusercontent.com/70868454/220340326-0480e242-1ed0-4c10-8881-4d2d3dbd4055.gif" width=100 />
+      <img src="https://user-images.githubusercontent.com/70868454/220041735-c3a11aee-ff39-4c18-9bdb-650128f60984.gif"  />
       </td>
       <td>
-        <b>인증</b>
-        <div>로그인&회원가입</div>
+        <b>렌딩페이지</b>
+        <div></div>
       </td>
     </tr>
+    <tr>
+      <td>
+        <img src="https://user-images.githubusercontent.com/70868454/220340136-cd4e3375-536b-48a8-a526-6a2365288a48.gif" />
+      </td>
+      <td>
+        <b>로그인페이지</b>
+        <div></div>
+      </td>
+    </tr>  
+        <tr>
+      <td>
+        <img src="https://user-images.githubusercontent.com/70868454/220340326-0480e242-1ed0-4c10-8881-4d2d3dbd4055.gif"  />
+      </td>
+      <td>
+        <b>회원가입페이지</b>
+        <div></div>
+      </td>
+    </tr>
+    
+    
    </tbody>
  <table>
 
