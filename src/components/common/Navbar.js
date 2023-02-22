@@ -42,7 +42,7 @@ const NavbarExtendedContainer = styled.div`
   flex-direction: column;
   align-items: center;
 
-  @media (min-width: 768px) {
+  @media (min-width: 769px) {
     display: none;
   }
 `;
@@ -60,7 +60,7 @@ const LinkExtendedContainer = styled.div`
 `;
 
 const LinkButtonWrapper = styled.div`
-  @media (max-width: 768px) {
+  @media (max-width: 769px) {
     display: none;
   }
 `;
@@ -90,7 +90,7 @@ const OpenLinksButton = styled.button`
   font-size: 34px;
   cursor: pointer;
 
-  @media (min-width: 768px) {
+  @media (min-width: 769px) {
     display: none;
   }
 `;
