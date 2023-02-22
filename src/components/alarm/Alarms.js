@@ -25,9 +25,7 @@ const Alarms = ({
   let leftDay = Number.MAX_SAFE_INTEGER;
 
   leftDay = Math.min(
-    ...alarmList
-      .filter((alarm) => moment(alarm.releaseDate).dayOfYear() >= now)
-      .map((alarm) => moment(alarm.releaseDate).dayOfYear() - now),
+    ...alarmList.map((alarm) => moment(alarm.releaseDate).dayOfYear() - now),
   );
 
   if (user && alarmList.length <= 0) {
@@ -54,38 +52,48 @@ const Alarms = ({
       ) : (
         <AlarmsBlock>
           <Box maxW="3xl" mx="auto" padding="3rem">
-            {leftDay === 0 ? (
-              <Heading
-                mb="4"
-                fontWeight="extrabold"
-                size="xl"
-                bgGradient="linear(to-r, purple.500, purple.300, blue.500)"
-                color="purple"
-                bgClip="text"
-              >
-                TODAY
-              </Heading>
+            {leftDay <= 0 ? (
+              <>
+                <Heading
+                  mb="4"
+                  fontWeight="extrabold"
+                  bgGradient="linear(to-r, purple.500, purple.300, blue.500)"
+                  color="purple"
+                  bgClip="text"
+                >
+                  {alarmList[0].productName}
+                </Heading>
+                <Text
+                  fontSize="xl"
+                  fontWeight="medium"
+                  bgGradient="linear(to-r, purple.500, purple.300, blue.500)"
+                  bgClip="text"
+                >
+                  제품이 발매되었습니다.
+                </Text>
+              </>
             ) : (
-              <Heading
-                mb="4"
-                fontWeight="extrabold"
-                size="xl"
-                bgGradient="linear(to-r, purple.500, purple.300, blue.500)"
-                color="purple"
-                bgClip="text"
-              >
-                {leftDay}일 뒤,
-              </Heading>
+              <>
+                <Heading
+                  mb="4"
+                  fontWeight="extrabold"
+                  size="xl"
+                  bgGradient="linear(to-r, purple.500, purple.300, blue.500)"
+                  color="purple"
+                  bgClip="text"
+                >
+                  {leftDay}일 뒤,
+                </Heading>
+                <Text
+                  fontSize="xl"
+                  fontWeight="medium"
+                  bgGradient="linear(to-r, purple.500, purple.300, blue.500)"
+                  bgClip="text"
+                >
+                  {alarmList[0].productName} 제품이 발매 됩니다.
+                </Text>
+              </>
             )}
-
-            <Text
-              fontSize="xl"
-              fontWeight="medium"
-              bgGradient="linear(to-r, purple.500, purple.300, blue.500)"
-              bgClip="text"
-            >
-              {alarmList[0].productName} 제품이 발매 됩니다.
-            </Text>
             <AlarmListBlock>
               {alarmList.length &&
                 alarmList.map((item, idx) => {
