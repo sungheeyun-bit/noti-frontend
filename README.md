@@ -7,7 +7,9 @@
 🔔  NOTI는 NOTIFY의 줄임말로 사전에 발매정보를 알려주는 알림 서비스를 뜻합니다.
 
 
-🎥 [NOTI 사이트 바로가기](https://web-noti-frontend-4uvg2mledomxu7.sel3.cloudtype.app/) 
+🎥 [NOTI 사이트 바로가기](https://web-noti-frontend-4uvg2mledomxu7.sel3.cloudtype.app/)
+📝 [NOTION 바로가기](https://almond-polish-8af.notion.site/NOTI-PROJECT-5e20b7eb7ab5440085aea01319722ea8)
+
 
 
 </div>
@@ -135,6 +137,16 @@
  
 ## 🏇 설치 및 실행방법 
 
+### Backend
+[백엔드 저장소](https://github.com/sungheeyun-bit/noti-backend)를 `git clone` 한 후, 아래 명령어를 실행합니다.
+
+```
+$ npm install
+$ npm run start
+```
+
+### Frontend
+이 저장소를 `git clone` 한 후, 아래 명령어를 실행합니다.
 
 ```
 $ npm install
