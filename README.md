@@ -4,31 +4,16 @@
 
 # NOTI PROJECT REFACTORING
 
-🔔  NOTI는 NOTIFY의 줄임말로 사전에 발매정보를 알려주는 알림 서비스를 뜻합니다.
+NOTI는 NOTIFY의 줄임말로 사전에 발매정보를 알려주는 알림 서비스를 뜻합니다.
 
 
-🎥 [NOTI 사이트 바로가기](https://web-noti-frontend-4uvg2mledomxu7.sel3.cloudtype.app/)
-📝 [NOTION 바로가기](https://almond-polish-8af.notion.site/NOTI-PROJECT-5e20b7eb7ab5440085aea01319722ea8)
-
+🎥 [NOTI 사이트 바로가기](https://web-noti-frontend-4uvg2mledomxu7.sel3.cloudtype.app/) 
+📝 [NOTION 바로가기](https://almond-polish-8af.notion.site/NOTI-PROJECT-5e20b7eb7ab5440085aea01319722ea8) 
 
 
 </div>
 
 <br />
-
-## 🎯 프로젝트 소개 및 목적
-
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/70868454/220041735-c3a11aee-ff39-4c18-9bdb-650128f60984.gif" />
-</div> 
-<br />
-
-발매 정보를 알려주는 사이트는 많지만 정보들이 파편화돼 있으며 발매 당일 구매 기회를 놓치는 문제가 많다는 점을 발견하였습니다. 개인의 취향에 따라 꼭 갖고 싶은 아이템 놓치기 않기 위해 발매 정보를 모아 알려주고 관리 할 수 있는 서비스입니다.
-
-저희 프로젝트를 활용한다면 브랜드 및 제품에 따라 여기 저기 사이트를 이동하며 발매 정보를 찾고 기억할 필요 없습니다. 파편화된 발매정보를 한곳에 모아 보기 쉽게 보여주는 기능과 발매 전 날 유저가 발매 정보 및 발매일을 리마인드 할 수 있도록 알림 메시지 전달 기능을 통해 발매정보를 쉽게 확인 할 수 있습니다.
-
-이를 통해 알림 메시지를 통해 유저들은 원하는 제품의 구매 기회를 놓치지 않고 구매 할 수 있습니다.
- 
 
 ## 🔨 리팩토링을 하게 된 이유
 프로젝트를 기간 내에 끝내고 구현했다는 뿌듯함과 동시에 동작은 하지만 제대로 된 코드를 짠 게 맞는지 계속해서 의문이 생겼습니다. 그 후 ‘리액트를 다루는 기술’ 책과 여러 강의들을 독학으로 공부하다가 진행했던 프로젝트의 코드들이 정말 구현만 되었지 유지 보수하기에 좋지도 않을뿐더러 뒤죽박죽한 이 코드들을 처음 본 사람이 이해할 수 있을까라는 생각이 들었습니다. 
@@ -39,85 +24,27 @@
 
 단순히 구현만 되는 코드가 아닌 유지 보수성을 높이고 이해하기 쉬운 코드를 작성하기 위해 프론트엔드를 맡아서 진행했던 프로젝트를 백엔드 부분도 함께 리팩토링을 진행했습니다.
 
+👉 [리팩토링 이전 NOTI Frontend Github 둘러보기](https://github.com/codestates/noti-client)
 
+## 🎯 프로젝트 소개 및 목적
 
+발매 정보를 알려주는 사이트는 많지만 정보들이 파편화돼 있으며 발매 당일 구매 기회를 놓치는 문제가 많다는 점을 발견하였습니다. 개인의 취향에 따라 꼭 갖고 싶은 아이템 놓치기 않기 위해 발매 정보를 모아 알려주고 관리 할 수 있는 서비스입니다.
 
-## 🤘 프로젝트 기능 소개 
-<table align="center">
-<thead>
-  <tr>
-    <th align="center">기능별 시연</th>
-    <th align="center">소개</th>
-  </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>
-      <img src="https://user-images.githubusercontent.com/70868454/220041735-c3a11aee-ff39-4c18-9bdb-650128f60984.gif"  />
-      </td>
-      <td>
-        <b>렌딩페이지</b>
-        <div></div>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <img src="https://user-images.githubusercontent.com/70868454/220340136-cd4e3375-536b-48a8-a526-6a2365288a48.gif" />
-      </td>
-      <td>
-        <b>로그인페이지</b>
-        <div></div>
-      </td>
-    </tr>  
-        <tr>
-      <td>
-        <img src="https://user-images.githubusercontent.com/70868454/220340326-0480e242-1ed0-4c10-8881-4d2d3dbd4055.gif"  />
-      </td>
-      <td>
-        <b>회원가입페이지</b>
-        <div></div>
-      </td>
-    </tr>
-   <tr>
-      <td>
-        <img src="https://user-images.githubusercontent.com/70868454/220351142-3714c699-0e4f-4291-a62d-cf040251f9a9.gif"  /> 
-      </td>
-      <td>
-        <b>알람페이지</b>
-        <div></div>
-      </td>
-    </tr>
-      <tr>
-      <td>
-        <img src="https://user-images.githubusercontent.com/70868454/220351108-5089fe9c-54a5-4de3-9f5d-a23ca5c4b91a.gif"  />
-      </td>
-      <td>
-        <b>상세페이지</b>
-        <div></div>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <img src="https://user-images.githubusercontent.com/70868454/220351087-f5189341-df7d-4d83-8554-7dcda52514f1.gif"  />
-      </td>
-      <td>
-        <b>검색기능</b>
-        <div></div>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <img src="https://user-images.githubusercontent.com/70868454/220351036-d950774d-2d2f-4ebd-a498-db90ae580233.gif"  />
-      </td>
-      <td>
-        <b>관리자 업로드페이지</b>
-        <div></div>
-      </td>
-    </tr>
-    
-    
-   </tbody>
- <table>
+저희 프로젝트를 활용한다면 브랜드 및 제품에 따라 여기 저기 사이트를 이동하며 발매 정보를 찾고 기억할 필요 없습니다. 파편화된 발매정보를 한곳에 모아 보기 쉽게 보여주는 기능과 발매 전 날 유저가 발매 정보 및 발매일을 리마인드 할 수 있도록 알림 메시지 전달 기능을 통해 발매정보를 쉽게 확인 할 수 있습니다.
+
+이를 통해 알림 메시지를 통해 유저들은 원하는 제품의 구매 기회를 놓치지 않고 구매 할 수 있습니다.
+ 
+
+|루트|구현화면|
+|:--:|:--:|
+| `/` <br> 서비스 소개 <br/>발매정보 리스트|<img src="https://user-images.githubusercontent.com/70868454/220041735-c3a11aee-ff39-4c18-9bdb-650128f60984.gif"  />|
+|`/` <br> 검색 기능 </br>|<img src="https://user-images.githubusercontent.com/70868454/220351087-f5189341-df7d-4d83-8554-7dcda52514f1.gif"  />|
+| `/login` <br> 로그인 </br> |<img src="https://user-images.githubusercontent.com/70868454/220340136-cd4e3375-536b-48a8-a526-6a2365288a48.gif" />|
+|`/register` <br> 회원가입 </br> | <img src="https://user-images.githubusercontent.com/70868454/220340326-0480e242-1ed0-4c10-8881-4d2d3dbd4055.gif"  />|
+|`/product/:productId` <br> 제품 상세페이지 </br> | <img src="https://user-images.githubusercontent.com/70868454/220351108-5089fe9c-54a5-4de3-9f5d-a23ca5c4b91a.gif"  />|
+|`/user/alarm` <br> 알람리스트 </br>|<img src="https://user-images.githubusercontent.com/70868454/220351142-3714c699-0e4f-4291-a62d-cf040251f9a9.gif"  />|
+|`/upload` <br> 관리자 </br> 발매 정보 업로드| <img src="https://user-images.githubusercontent.com/70868454/220351036-d950774d-2d2f-4ebd-a498-db90ae580233.gif"  />|
+
 
 
 ## ⚙️ 기술 스택
@@ -157,7 +84,4 @@ $ npm run start
 ## 📁 폴더 구조
 📂 [프론트엔드 폴더 바로가기](https://almond-polish-8af.notion.site/25912762534b43a190314c1867aad533) <br />
 📂 [백엔드 폴더 바로가기](https://almond-polish-8af.notion.site/feat-b53ac06cfe53476d90c8794644340837) 
-
-
-
 
